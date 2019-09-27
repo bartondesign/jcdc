@@ -1,1 +1,4 @@
 # jcdc
+---
+permalink: /index.html
+---
