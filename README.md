@@ -1,4 +1,4 @@
 # jcdc
 ---
-permalink: instafeed-project/index.php
+permalink: /index.html
 ---
