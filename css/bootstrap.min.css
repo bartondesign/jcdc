@@ -4423,7 +4423,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .navbar-brand {
   left:calc(50% - 75px);
   position: absolute;
-  padding:20px;
+  margin-bottom:20px;
   top:-10px;
 }
 .navbar-brand:focus, .navbar-brand:hover {
