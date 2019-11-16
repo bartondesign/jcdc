@@ -89,7 +89,7 @@ a:hover, a:active, a:focus {
       -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
     background:transparent;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -221,6 +221,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-brand {
   padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .navbar-default .navbar-brand .fa {
@@ -957,7 +958,7 @@ color:#000000;
 }
 
 .plxbutton {
-    color:#666;
+    color:#000;
     margin-top:60px;
 }
 /**
