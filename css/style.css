@@ -832,7 +832,7 @@ footer .footer-copyright {
     Testimonials
 ---------------------------------------*/
 #plxtestimonials {
-    background:url('/jcdc/images/jcdc-plx-bg-kitchen-2.jpg');
+    background:url('/jcdc/images/jcdc-plx-bg-testimonials.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -941,7 +941,7 @@ color:#000000;
 
 /* Parallax */
 #plx {
-    background:url('https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80');
+    background:url('/jcdc/images/jcdc-plx-bg-kitchen-2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
