@@ -245,7 +245,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #0095A9 !important;
+    color: #0095A9;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -281,9 +281,8 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
-#navbar-cta {
-    background-color: red;
-    color: #fff;
+.navbar-cta {
+    background-color: #0096aa;
 }
 
 
