@@ -4424,7 +4424,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
   left:calc(50% - 75px);
   position: absolute;
   margin-bottom:20px;
-  top:-10px;
+  top:-30px;
 }
 .navbar-brand:focus, .navbar-brand:hover {
 	text-decoration: none
