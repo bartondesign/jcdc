@@ -14,7 +14,7 @@ background: #000;
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typography              
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -930,12 +930,8 @@ footer .footer-copyright {
 
 /* anchor */
 
-.anchor { padding-top: 190px;
-color:#000000;
-}
-
-.anchor:hover {
-    color:#000000;
+a.anchor {
+    padding-top: 40px;
 }
 
 
