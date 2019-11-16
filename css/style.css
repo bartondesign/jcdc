@@ -930,8 +930,14 @@ footer .footer-copyright {
 
 /* anchor */
 
-a.anchor {
-    padding-top: 40px;
+.anchor a {
+  position: absolute;
+  left: 0px;
+  top: -60px;
+}
+
+.anchor {
+  position: relative;
 }
 
 
