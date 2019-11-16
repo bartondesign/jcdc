@@ -281,6 +281,9 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
+.navbar-cta {
+    background-color: red;
+}
 
 
 /*---------------------------------------
