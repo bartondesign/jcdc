@@ -63,6 +63,20 @@ strong {
   border-color: transparent;
 }
 
+.btn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background: transparent;
+    border: 2px solid #000;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 20px 26px 20px 26px;
+    border-radius: 0;
+}
+
+
 
 /*---------------------------------------
     General               
@@ -85,24 +99,7 @@ a:hover, a:active, a:focus {
   outline: none;
 }
 
-.btn {
-      -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-    background:transparent;
-    border: 2px solid #000;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding:20px 26px 20px 26px;
-    border-radius: 0;
-}
 
-.btn:hover {
-    border: 2px solid #000000;
-    color:#ffffff;
-    background-color: #000000;
-}
 
 * {
   -webkit-box-sizing: border-box;
@@ -209,6 +206,7 @@ a:hover, a:active, a:focus {
     border: none;
     padding-top:50px;
     margin-top:0px;
+    margin-bottom:0px;
     height:152px;
     -webkit-box-shadow: 0 4px 6px -6px #777;
     -moz-box-shadow: 0 4px 6px -6px #777;
