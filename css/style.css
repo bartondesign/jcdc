@@ -240,8 +240,8 @@ a:hover, a:active, a:focus {
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    padding-right: 32px;
-    padding-left: 32px;
+    padding-right: 18px;
+    padding-left: 18px;
 }
 
 .navbar-default .navbar-nav > li a:hover {
@@ -925,19 +925,6 @@ footer .footer-copyright {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
-}
-
-
-/* anchor */
-
-.anchor a {
-  position: absolute;
-  left: 0px;
-  top: -60px;
-}
-
-.anchor {
-  position: relative;
 }
 
 
