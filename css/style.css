@@ -240,8 +240,8 @@ a:hover, a:active, a:focus {
     letter-spacing: 1px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-right: 14px;
+    padding-left: 14px;
 }
 
 .navbar-default .navbar-nav > li a:hover {
@@ -726,7 +726,7 @@ footer .footer-copyright {
 -----------------------------------------*/
 
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
 
   h1 {
     font-size: 38px;
