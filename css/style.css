@@ -726,7 +726,7 @@ footer .footer-copyright {
 -----------------------------------------*/
 
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
 
   h1 {
     font-size: 38px;
