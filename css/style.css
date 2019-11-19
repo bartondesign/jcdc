@@ -826,111 +826,12 @@ footer .footer-copyright {
 }
 
 
-/*--------------------------------------
-    Testimonials
----------------------------------------*/
-#plxtestimonials {
-    background:url('/jcdc/images/jcdc-plx-bg-testimonials.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 160px;
-    padding-bottom: 160px;
-    background-color: #fff;
-    height:100%;
-    width:100%; 
-}
 
-.plxtestimonialstitle {
-    padding: 80px 20px;
-}
-
-.plxtestimonialstitle h2 {
-    font-size:64px;
-    font-weight: 400;
-    color:#ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-#plxtestimonials p {
-    font-size:20px;
-    font-weight: 400;
-    color:#ffffff;
-    letter-spacing: 2px;
-}
-
-/* carousel */
-#quote-carousel 
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-}
-
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #0095A9;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left 
-{
-  left: -36px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right 
-{
-  right: -36px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -10px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active 
-{
-  background: #0095A9;
-}
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
-/* End carousel */
-
-.item blockquote {
-    border-left: none; 
-    margin: 0;
-}
-
-.item blockquote img {
-    margin-bottom: 10px;
-}
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
 
 
 /* Parallax */
 #plx {
-    background:url('/jcdc/images/jcdc-plx-bg-kitchen-2.jpg');
+    background:url('../images/jcdc-plx-bg-kitchen-2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -988,4 +889,82 @@ footer .footer-copyright {
         width: 20px;
         height: 20px;
     }
+}
+
+/* Responsive Quote Carousel */
+
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+#carousel {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:url('../images/jcdc-plx-bg-testimonials.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+}
+
+.quote {
+    color:#666;
+    text-align: center;
+    font-size:16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.testimonial {
+   color:#fff;
+   font-size:22px;
+   letter-spacing: 1px;
+    line-height: 1.2em;  
+}
+
+.quoteName {
+   color:#fff;
+   font-size:16px;
+   letter-spacing: 1px;
+   line-height: 1.2em;    
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
 }
