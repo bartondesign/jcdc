@@ -215,6 +215,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent;
+  background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
