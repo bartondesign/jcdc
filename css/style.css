@@ -889,17 +889,13 @@ footer .footer-copyright {
     
 }
 
-#plx {
-    background:url('../images/plx-bg-jcdc-kitchen.jpg');
+#plx, #carousel {
+
     background-attachment:initial;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #777;
-    background-blend-mode:screen;
-    height:100% !important;
-    width:100% !important; 
+
 }
+
+
 
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
