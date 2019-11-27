@@ -889,7 +889,7 @@ footer .footer-copyright {
     
 }
 
-#plx, #carousel {
+#plx #carousel {
 
     background-attachment:initial;
 
@@ -927,7 +927,7 @@ footer .footer-copyright {
 
 
 #carousel {
-    background:url('../images/plx-bg-jcdc-kitchen.jpg');
+    background:url('../images/jcdc-plx-bg-testimonials.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
