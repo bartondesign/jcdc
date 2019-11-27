@@ -889,13 +889,17 @@ footer .footer-copyright {
     
 }
 
-#plx #carousel {
+#plx {
 
     background-attachment:initial;
 
 }
 
+#carousel {
 
+    background-attachment:initial;
+
+}
 
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
