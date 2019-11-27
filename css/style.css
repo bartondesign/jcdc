@@ -2,7 +2,7 @@
 body {
 background: #000;
     font-family: Oswald, sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
     font-size: 16px;
     letter-spacing: .16em;
@@ -937,9 +937,9 @@ footer .footer-copyright {
 }
 
 .testimonial {
-   color:#fff;
-   font-size:22px;
-   letter-spacing: 1px;
+    color:#fff;
+    font-size:22px;
+    letter-spacing: 1px;
     line-height: 1.2em;  
 }
 
