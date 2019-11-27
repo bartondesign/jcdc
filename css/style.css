@@ -830,31 +830,50 @@ footer .footer-copyright {
 
 
 /* Parallax */
+
+
 #plx {
-    background:url('../images/jcdc-plx-bg-kitchen-2.jpg');
+    background:url('../images/plx-bg-jcdc-saw.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #ccc;
+    background-blend-mode: multiply;
     height:100% !important;
     width:100% !important; 
 }
 
 .plxtitle {
-    padding: 350px 20px;
+    padding: 150px 20px;
 }
 
 .plxtitle h2 {
     font-size:64px;
     font-weight: 400;
-    color:#000;
+    color:#fff;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.plxbutton {
-    color:#000;
+.plx-button {
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #000;
+    border: 2px solid #000;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     margin-top:60px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 0;
+}
+
+.plx-button:hover {
+    background-color: #0096AA;
+    border: 2px solid #0096AA;
 }
 /**
   MEDIA QUERIES
@@ -911,7 +930,7 @@ footer .footer-copyright {
 }
 
 .quote {
-    color:#666;
+    color:#0095A9;
     text-align: center;
     font-size:16px;
     font-weight: 400;
@@ -955,7 +974,7 @@ footer .footer-copyright {
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color: #0095A9;
   border: none;
 }
 #fade-quote-carousel blockquote {
