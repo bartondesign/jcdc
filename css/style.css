@@ -1,7 +1,7 @@
 
 body {
 background: #000;
-    font-family: Abel;
+    font-family: Oswald, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -18,7 +18,6 @@ background: #000;
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: alternate-gothic-no-2-d, sans-serif;
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -32,7 +31,7 @@ h1 {
 
 h2 {
   font-size: 32px;
-  line-height: 46px;
+  line-height: 64px;
 }
 
 h3 {
@@ -76,8 +75,9 @@ strong {
     border-radius: 0;
 }
 
-
-
+.brand-color {
+    color:#0095A9;
+}
 /*---------------------------------------
     General               
 -----------------------------------------*/
@@ -229,7 +229,6 @@ a:hover, a:active, a:focus {
 
 
 .navbar-default .navbar-nav li a {
-    font-family: katarine-web, sans-serif;
     font-weight: 600;
     font-style: normal;
     color: #777;
@@ -455,7 +454,7 @@ min-height:400px;
 }
 
 #contact .form-control {
-  border: 1px solid #f0f0f0;
+  border: 1px solid #cecdcd;
   box-shadow: none;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -472,10 +471,10 @@ min-height:400px;
 }
 
 #contact input[type="submit"] {
-  background: #ffffff;
+  background: #0096AA;
   border-radius: 0px;
-  border: 2px solid #000000;
-  color: #000000;
+  border: 2px solid #0096AA;
+  color: #fff;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 16px;
@@ -663,7 +662,7 @@ footer {
     padding: 100px 0px;
     position: relative;
     bottom:0;
-    background-color: black;
+    background-color: #000;
 }
 
 footer .col-md-3 .fa {
@@ -671,7 +670,7 @@ footer .col-md-3 .fa {
 }
 
 footer a {
-  color: #555;
+  color: #0096AA;
 }
 
 footer hr {
@@ -731,8 +730,8 @@ footer .footer-copyright {
   }
 
   h2 {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 35px;
   }
 
   h3 {
@@ -833,25 +832,25 @@ footer .footer-copyright {
 
 
 #plx {
-    background:url('../images/plx-bg-jcdc-saw.jpg');
+    background:url('../images/plx-bg-jcdc-kitchen.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #ccc;
-    background-blend-mode: multiply;
+    background-color: #777;
+    background-blend-mode:screen;
     height:100% !important;
     width:100% !important; 
 }
 
 .plxtitle {
-    padding: 150px 20px;
+    padding: 200px 20px;
 }
 
 .plxtitle h2 {
     font-size:64px;
     font-weight: 400;
-    color:#fff;
+    color:#000;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
